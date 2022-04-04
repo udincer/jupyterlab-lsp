@@ -25,16 +25,16 @@
 }
 
 .jp-Completer {
-  --lsp-completer-max-label-width: 300px;
-  --lsp-completer-max-detail-width: 200px;
+  --lsp-completer-max-label-width: 1200px;
+  --lsp-completer-max-detail-width: 1200px;
 }
 
 .jp-Completer-match {
   max-width: var(--lsp-completer-max-label-width);
-  overflow-x: hidden;
+  overflow-x: auto;
   white-space: nowrap;
   display: block;
-  text-overflow: ellipsis;
+/*   text-overflow: ellipsis; */
 }
 
 .jp-mod-active .jp-Completer-match {
