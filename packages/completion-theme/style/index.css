@@ -31,10 +31,10 @@
 
 .jp-Completer-match {
   max-width: var(--lsp-completer-max-label-width);
-  overflow-x: hidden;
+  overflow-x: auto;
   white-space: nowrap;
   display: block;
-  text-overflow: ellipsis;
+/*   text-overflow: ellipsis; */
 }
 
 .jp-mod-active .jp-Completer-match {
