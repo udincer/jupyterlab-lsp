@@ -25,8 +25,8 @@
 }
 
 .jp-Completer {
-  --lsp-completer-max-label-width: 300px;
-  --lsp-completer-max-detail-width: 200px;
+  --lsp-completer-max-label-width: 1200px;
+  --lsp-completer-max-detail-width: 1200px;
 }
 
 .jp-Completer-match {
